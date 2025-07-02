@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "https://i.goopics.net/95gv5t.jpg",  # Remplacez par le chemin de votre image
+        "#",  # Remplacez par le chemin de votre image
         width=80,     # Ajustez la taille si nécessaire
         use_container_width=False,
     )
