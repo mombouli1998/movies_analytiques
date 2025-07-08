@@ -90,13 +90,12 @@ code .
 
 Si tu reçois une notification *"Sélectionner l'interpréteur Python"*, choisis l’interpréteur correspondant à ton environnement `.venv`.
 
-### 4. Créer un dossier pour ton notebook
+### 4. Créer un fichier notebook
 
-Organise tes fichiers en créant un dossier dédié à l’analyse :
+Cree un fichier dédié à l’analyse :
 
 ```bash
-mkdir dataanalysis
-touch dataanalysis/movie_data_analysis.ipynb
+touch movie_analytiques.ipynb
 ```
 
 ### 5. Installer le SDK `moviesdk`
@@ -122,11 +121,11 @@ On va explorer les films, les notes, les genres... et visualiser tout ça avec d
 
 ## Familiarisation avec l'API dans un notebook 
 
-Voir Fichier `dataanalysis/movies_analytiques.ipynb` 
+Voir Fichier `movies_analytiques.ipynb` 
 
 ## Visualisation des données
 
-Voir Fichier `dataanalysis/visualisation.ipynb` 
+Voir Fichier `visualisation.ipynb` 
 
 ## Intégration de l'API dans une application Streamlit
 
@@ -153,7 +152,6 @@ Notre application Streamlit comprendra un fichier de point d'entrée, le fichier
 Exécutez ces commandes à partir du répertoire racine de votre projet :
 
 ```bash
-cd dataanalysis
 mkdir streamlit_app
 cd streamlit_app
 touch movielens_app.py
@@ -162,5 +160,5 @@ touch page2.py
 touch page3.py
 ```
 
-Codes complet de l'application : voir dossier `dataanalysis/streamlit_app`
+Codes complet de l'application : voir dossier `streamlit_app`
 
